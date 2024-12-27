@@ -9,3 +9,8 @@ router.get('/comments', (req, res) => {
 
 module.exports = router;
 // create a route for /comments
+router.get('/comments', (req, res) => {
+    res.send('Comments page');
+});
+
+module.exports = router;
